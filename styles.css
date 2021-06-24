@@ -21,7 +21,10 @@ h2 {
   display: flex;
   justify-content: center;
 }
-.txt-area {
+#txt-input {
+  padding: 5px 0px 0px 5px;
+}
+#txt-area {
   padding: 5px 0px 0px 5px;
 }
 button {
