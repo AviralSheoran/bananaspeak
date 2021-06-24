@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minion Translator</title>
@@ -9,8 +10,9 @@
 <body>
     <h2>banana talk</h2>
 
-    <div>
+    <div class="txt-area-main">
       <textarea
+      class="txt-area"
         cols="60"
         rows="10"
         id="txt-input"
@@ -18,17 +20,17 @@
       ></textarea>
     </div>
 
-    <div>
+    <div id="button">
         <button>Translate to banana!!</button>
       </div>
   
       <p style="text-align: center">Translation will come here👇</p>
-      <div>
-        <textarea id="txt-area" cols="50" rows="5"></textarea>
+      <div class="txt-area-main2">
+        <textarea class="txt-area" id="txt-area" cols="50" rows="5"></textarea>
       </div>
   
       <div style="margin-top: 40px; margin-bottom: 0px">
-        <div>
+        <div class="footer">
           <h3 style="margin-bottom: 0px">about</h3>
           <p>
             Are you a fan of minions? Did you know that the gibberish they say is

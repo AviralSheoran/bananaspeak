@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Pangolin", cursive;
+}
+h2 {
+  margin: 0px;
+  padding: 30px;
+  color: black;
+  text-align: center;
+  background-color: rgb(219, 207, 35);
+}
+.txt-area-main {
+  margin: 50px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+.txt-area-main2 {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+.txt-area {
+  padding: 5px 0px 0px 5px;
+}
+button {
+  font-size: 1.1em;
+  cursor: pointer;
+  padding: 17px 25px 17px 25px;
+  background-color: rgb(219, 207, 35);
+  border: none;
+  border-radius: 10px;
+}
+#button {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(219, 207, 35);
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
