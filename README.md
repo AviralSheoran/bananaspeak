@@ -1,2 +1,2 @@
-# bananaspeak-neogcamp-Week 4
+# bananaspeak
  Minion translation app
